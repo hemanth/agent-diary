@@ -1,0 +1,4 @@
+{
+  "description": "In-terminal Stoic engineering diary pane, live turn observer, and /diary commands",
+  "modules": ["./register.js"]
+}

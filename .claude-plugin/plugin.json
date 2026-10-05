@@ -1,0 +1,11 @@
+{
+  "name": "agent-diary",
+  "version": "0.2.0",
+  "description": "In-terminal Stoic engineering diary pane, /diary commands, and automatic session distiller for Claude Code",
+  "author": {
+    "name": "Hemanth HM",
+    "url": "https://h3manth.com"
+  },
+  "repository": "https://github.com/hemanth/agent-diary",
+  "license": "MIT"
+}

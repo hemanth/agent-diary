@@ -1,0 +1,21 @@
+{
+  "name": "agent-diary",
+  "version": "0.2.0",
+  "description": "Harvest learnings, challenges, and solutions across AI agent sessions into a Marcus Aurelius HTML diary and Claude Code Mod pane.",
+  "type": "module",
+  "bin": {
+    "agent-diary": "./bin/agent-diary.mjs",
+    "agent-diary-harvest": "./scripts/harvest.mjs",
+    "agent-diary-build": "./scripts/build-diary.mjs"
+  },
+  "scripts": {
+    "harvest": "node ./scripts/harvest.mjs",
+    "sync": "node ./scripts/auto-hook.mjs",
+    "build": "node ./scripts/build-diary.mjs",
+    "open": "node ./scripts/build-diary.mjs --open",
+    "validate": "claude plugin validate . --strict",
+    "test": "claude plugin test"
+  },
+  "author": "Hemanth HM <hemanth@h3manth.com> (https://h3manth.com)",
+  "license": "MIT"
+}
